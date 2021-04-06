@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"crypto/sha1"
 	"fmt"
-	zxcvbn "github.com/nbutton23/zxcvbn-go"
+	"github.com/nbutton23/zxcvbn-go"
 	"net/http"
 	"strconv"
 	"strings"

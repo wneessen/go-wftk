@@ -55,7 +55,6 @@ func DecryptAuthBase64(cipherText string, decKey, authData string) (string, erro
 	if err != nil {
 		return "", err
 	}
-	fmt.Println(string(plainText))
 
 	return string(plainText), nil
 }
